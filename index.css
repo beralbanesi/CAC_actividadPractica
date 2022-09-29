@@ -1,0 +1,76 @@
+* {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.custom-navbar{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEEEEE;
+}
+
+.custom-navbar a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.search-button{
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(240,240,240);
+  border-radius: 5px;
+  height: 37px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.card-content{
+  font-size: 1rem;
+  color: #34393F;
+  font-weight: 400;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.card-update{
+  font-size: 0.8rem;
+  color: grey;
+  font-weight: 400;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+input{
+  height: 37px;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #DDDDDD;
+  padding-left: 10px;
+}
+
+.send-button{
+  padding: 10px;
+  padding-top: 6px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: rgb(24,111,251);
+  border-radius: 5px;
+  height: 37px;
+  vertical-align: middle;
+}
+
